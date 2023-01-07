@@ -129,13 +129,18 @@ div li i{
 }
 
 /* main body design */
-
-.bimg{
+.gradiant{
     background-image: url(../images/watch.png);
     width: 1140px;
     height: 300px;
     border-radius: 10px;
     margin: 60px 81px;
+}
+
+.bimg{
+    background-image: url(../images/gradient1.png);
+    width: 1140px;
+    height: 300px;
 }
 .headline{
     padding-top: 60px;
