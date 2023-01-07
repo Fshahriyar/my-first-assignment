@@ -5,8 +5,6 @@
     background-image: url(../images/banner/banner3.png); 
     width: auto;
     height: 808px;
-/* left: 0px;
-top: 0px */
 }
 .header-description{
     text-align: right;
@@ -100,14 +98,12 @@ div li i{
 }
 .skills-container{
     display: flex;
-    gap: 24px;
+    gap: 5px;
 }
 
 .imgsize{
-    width: 43px;
-    height: 46px;
-    font-style: normal;
-    line-height: 10px;
+    width: 50px;
+    height: 50px;
 }
 .skill{
     background: #FFFFFF;
@@ -115,19 +111,70 @@ div li i{
 }
 
 .skill-title{
-font-weight: 700;
-font-size: 20px;
-line-height: 27px;
-text-align: center;
-color: #181818;
-margin-top: 30px;
-margin-bottom: 20px;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 27px;
+     text-align: center;
+     color: #181818;
+     margin-top: 30px;
+     margin-bottom: 20px;
 }
 .skill-description{
     text-align: center;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-color: #757575;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+/* main body design */
+
+.bimg{
+    background-image: url(../images/watch.png);
+    width: 1140px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 60px 81px;
+}
+.headline{
+    padding-top: 60px;
+    padding-left: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.btndesign{
+    width: 140px;
+    height: 55px;
+    margin-left: 60px;
+    color: #005FAC;
+}
+
+/* footer */
+
+.footer-design{
+    display: flex;
+    justify-content:space-around;
+    background-color: #151414;
+    color: #FFFFFF;
+    padding: 80px 70px;
+}
+.input-design{
+    background-color:#151414;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.bt-design{
+    width: 130px;
+    height: 50px;
+    border-radius:5px;
+    border: none;
+    background-color: #005FAC;
+    color: white;
+    margin-top: 15px;
 }
