@@ -4,13 +4,130 @@
 .header-main{
     background-image: url(../images/banner/banner3.png); 
     width: auto;
-height: 808px;
+    height: 808px;
 /* left: 0px;
 top: 0px */
 }
 .header-description{
     text-align: right;
-    padding-top: 300px;
-    margin-right: 40px ;
+    padding-top: 250px;
+    margin-right: 100px ;
     
+}
+
+.head-design{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.paragraph-design{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.button-desing{
+    width: 162px;
+    height: 60px;
+    border-radius:5px;
+    border: none;
+    color: #005FAC;
+    margin-top: 15px;
+}
+.bold{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: right;
+}
+
+/* header part b */
+
+.header-part-b{
+    display: flex;
+}
+
+div img{
+    width: 450px;
+    height: 538px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.body-design{
+    margin-top: 220px;
+    padding-left: 94px;
+}
+
+.body-head{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 15px;
+}
+.body-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 15px;
+}
+
+div li{
+    list-style: none;
+
+}
+
+div li i{
+    color: greenyellow;
+    padding-right: 10px;
+}
+
+/* main design */
+
+.head-main{
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.imgsize{
+    width: 43px;
+    height: 46px;
+    font-style: normal;
+    line-height: 10px;
+}
+.skill{
+    background: #FFFFFF;
+     padding: 30px;
+}
+
+.skill-title{
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #181818;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.skill-description{
+    text-align: center;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #757575;
 }
